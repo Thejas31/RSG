@@ -1,0 +1,454 @@
+/* General body styling */
+body {
+    background: url('Images/back2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* Logo Section */
+.logo img {
+    max-height: 80px;
+    margin-right: 20px;
+}
+
+/* Contact Container */
+.contact {
+    background-color: #0000000e;
+    color: #071178;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .name h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contact a {
+    color: #071178;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+.slide{
+    border: 4px solid rgb(44, 44, 113);
+    border-radius: 5px;
+}
+/* About Us Section */
+.aboutUs {
+    padding: 30px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #444444;
+    transition: transform 0.3s ease-in-out;
+    background-color: #f9f9f9;
+}
+
+.aboutUs:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);
+}
+
+.logoName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutUs h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.aboutUs p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Carousel Section */
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel img {
+    /* filter: grayscale(100%); */
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Buttons for carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* Footer Contact Information */
+.contacts p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact .logo {
+        margin-bottom: 10px;
+    }
+}
+
+
+.headP {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.headP h2 {
+    font-weight: bold;
+    color: #333;
+}
+.headP p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Product Card */
+.product-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background: white;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 3px solid #007bff;
+}
+.product-card .card-body {
+    text-align: center;
+    padding: 15px;
+}
+.product-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 10px;
+}
+.modal-header {
+    background: #44515f;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+.modal-title {
+    font-weight: bold;
+}
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+/* Product Long Card */
+.long-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    background: white;
+    transition: transform 0.2s;
+}
+.long-card:hover {
+    transform: translateY(-3px);
+}
+.long-card img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+    border: 2px solid #4a535e;
+}
+.long-card h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* WhatsApp Contact Button */
+.contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    background-color: #00000094;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.contact-btn:hover {
+    background-color: #1ebe5d;
+}
+.contact-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.product{
+    transition: transform 0.3s ease-in-out;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #444444;
+}
+.product:hover{
+    background-color: aliceblue;
+    transform: scale(1.05);
+}
+
+.contactUs {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    /* max-width: 800px; */
+    margin: 40px auto;
+}
+
+.contactUs .headC h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contactUs .headC p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contactUs h4 {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.contactUs svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.contactUs a {
+    color: #e9f2eb; /* Green color for links */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contactUs a:hover {
+    text-decoration: underline;
+    color: #7d84cc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contactUs {
+        padding: 30px 15px;
+    }
+    .contactUs h4 {
+        font-size: 1rem;
+        flex-direction: column;
+    }
+}
+
+.popup {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.popup-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.popup-content img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+/* Product Card Styling */
+.product-card {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .popup-content img {
+        max-width: 90%;
+    }
+}
+/* Product Card Styling */
+.product-card {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Inside Modal */
+.product-item {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.product-item:hover {
+    transform: scale(1.03);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+}
+
+.whatsapp-btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    width: fit-content;
+    padding: 10px;
+}
+.what img{
+    height: 40px;
+}
+
+.what:hover{
+    background-color: #1ebe5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    width: fit-content;
+    padding: 10px;
+}
