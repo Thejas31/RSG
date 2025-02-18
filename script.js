@@ -1,28 +1,48 @@
 const productData = {
     "Granite": [
-        { name: "Toronto Brown Marble", img: "Images/Granite/Toronto Brown Marble.jpeg" },
+        { name: "Monte Cristo Granite", img: "Images/Granite/Monte Cristo Granite.jpg" },
+        { name: "Blue Dunes", img: "Images/Granite/Blue Dunes Granite.jpg" },
         { name: "Lady Onyx", img: "Images/Granite/Lady Onyx.jpeg" },
-        { name: "Magic Black Marble", img: "Images/Granite/Magic Black Marble.jpeg" },
-        { name: "Panda White Marble", img: "Images/Granite/Panda White Marble.jpg" },
         { name: "Rain Forest Brown", img: "Images/Granite/Rain Forest Brown.jpeg" },
         { name: "Rain Forest Green", img: "Images/Granite/Rain Forest Green.jpg" },
-        { name: "Rainforest Brown", img: "Images/Granite/Rainforest Brown.jpeg" },
         { name: "Rajasthan Black", img: "Images/Granite/Rajasthan Black.jpeg" },
-        { name: "RF Gold2", img: "Images/Granite/RF Gold2.jpeg" }
+        { name: "RF Gold2", img: "Images/Granite/RF Gold2.jpeg" },
+        { name: "Spider Green", img: "Images/Granite/Spider Green1.jpeg" },
+        { name: "White Dunes", img: "Images/Granite/White Dunes.jpg" }
     ],
+    
     "Marble": [
-        { name: "Titanium Gold", img: "Images/Marble/Cristalo White.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Fusion White.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Jesper Red.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Monalisa.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Premium Piccaso.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Piccaso Wh9ite.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Swiss Blue.jpeg" },
-        { name: "Carrara White", img: "Images/Marble/Titanium Gold.jpeg" },
+        { name: "Toronto Brown Marble", img: "Images/Marble/Toronto Brown Marble.jpeg" },
+        { name: "Magic Black Marble", img: "Images/Marble/Magic Black Marble.jpeg" },
+        { name: "Panda White Marble", img: "Images/Marble/Panda White Marble.jpg" },
+        { name: "Green Marble", img: "Images/Marble/Green Marble.jpg" },
+        { name: "Cristalo White", img: "Images/Marble/Cristalo White.jpeg" },
+        { name: "Fusion White", img: "Images/Marble/Fusion White.jpeg" },
+        { name: "Jesper Red", img: "Images/Marble/Jesper Red.jpeg" },
+        { name: "Monalisa", img: "Images/Marble/Monalisa.jpeg" },
+        { name: "Premium Piccaso", img: "Images/Marble/Premium Piccaso.jpeg" },
+        { name: "Piccaso White", img: "Images/Marble/Piccaso Wh9ite.jpeg" },
+        { name: "Swiss Blue", img: "Images/Marble/Swiss Blue.jpeg" },
+        { name: "Titanium Gold", img: "Images/Marble/Titanium Gold.jpeg" },
     ],
     "Quartz": [
-        { name: "Pure White Quartz", img: "Images/Quartz/Pure White.jpeg" },
-        { name: "Grey Sparkle Quartz", img: "Images/Quartz/Grey Sparkle.jpeg" }
+        { name: "Borghini Gold", img: "Images/quartz/Borghini Gold.jpg" },
+        { name: "Calacatta Borghini", img: "Images/quartz/Calacatta Borghini.jpg" },
+        { name: "Calacatta Forest", img: "Images/quartz/Calacatta Forest.jpg" },
+        { name: "Calacatta Lapis", img: "Images/quartz/Calacatta Lapis.jpg" },
+        { name: "Calacatta Venetino", img: "Images/quartz/Calacatta Venetino.jpg" },
+        { name: "Calacatta Verona", img: "Images/quartz/Calacatta Verona.jpg" },
+        { name: "Carrara Blue", img: "Images/quartz/Carrara Blue (1).jpg" },
+        { name: "Carrara White", img: "Images/quartz/Carrara White (1).jpg" },
+        { name: "Crystal White", img: "Images/quartz/Crystal White.jpg" },
+        { name: "Forest White", img: "Images/quartz/Forest White.jpg" },
+        { name: "Ice White", img: "Images/quartz/Ice White.jpg" },
+        { name: "Nero White", img: "Images/quartz/Nero White.jpg" },
+        { name: "Pure White", img: "Images/quartz/Pure White.jpg" },
+        { name: "River White", img: "Images/quartz/River White.jpg" },
+        { name: "Sparkle Grey", img: "Images/quartz/Sparkle Grey.jpg" },
+        { name: "Sparkle White", img: "Images/quartz/Sparkle White.jpg" },
+        { name: "Venetino Grey", img: "Images/quartz/Venetino Grey.JPG" },
     ]
 };
 

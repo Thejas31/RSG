@@ -28,6 +28,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .contact .name h4 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -396,6 +398,7 @@ body {
 .product-card {
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    height: 50px;
 }
 .product-card:hover {
     transform: scale(1.05);
