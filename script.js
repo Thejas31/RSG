@@ -1,19 +1,27 @@
 const productData = {
     "Granite": [
+        { name: "Azul Nova Granite", img: "Images/Granite/Azul Nova Granite.jpg" },
+        { name: "Bengal Black", img: "Images/Granite/Bengal Black.jpg" },
+        { name: "Blue Dunes Granite", img: "Images/Granite/Blue Dunes Granite.jpg" },
+        { name: "Desert Brown", img: "Images/Granite/Desert Brown Closeup.jpeg" },
+        { name: "Indian Arora", img: "Images/Granite/Indian Arora.jpg" },
+        { name: "Lady Onyx", img: "Images/Granite/Lady Onyx.jpg" },
+        { name: "Metallic Blue Granite", img: "Images/Granite/Metallic Blue Granite.jpg" },
+        // { name: "Monalisa", img: "Images/Granite/Monalisa.jpg" },
         { name: "Monte Cristo Granite", img: "Images/Granite/Monte Cristo Granite.jpg" },
-        { name: "Blue Dunes", img: "Images/Granite/Blue Dunes Granite.jpg" },
-        { name: "Lady Onyx", img: "Images/Granite/Lady Onyx.jpeg" },
-        { name: "Rain Forest Brown", img: "Images/Granite/Rain Forest Brown.jpeg" },
-        { name: "Rain Forest Green", img: "Images/Granite/Rain Forest Green.jpg" },
+        // { name: "Rain Forest Brown", img: "Images/Granite/Rain Forest Brown.jpg" },
+        // { name: "Rain Forest Green", img: "Images/Granite/Rain Forest Green.jpg" },
         { name: "Rajasthan Black", img: "Images/Granite/Rajasthan Black.jpeg" },
-        { name: "RF Gold2", img: "Images/Granite/RF Gold2.jpeg" },
+        { name: "Red Granite", img: "Images/Granite/Red Granite1.jpeg" },
         { name: "Spider Green", img: "Images/Granite/Spider Green1.jpeg" },
+        { name: "Steel Grey", img: "Images/Granite/Steel Grey.jpg" },
         { name: "White Dunes", img: "Images/Granite/White Dunes.jpg" }
     ],
     
     "Marble": [
+        { name: "RF Gold", img: "Images/Granite/RF Gold2.jpg" },
         { name: "Toronto Brown Marble", img: "Images/Marble/Toronto Brown Marble.jpeg" },
-        { name: "Magic Black Marble", img: "Images/Marble/Magic Black Marble.jpeg" },
+        { name: "Magic Black Marble", img: "Images/Marble/Magic Black Marble.jpg" },
         { name: "Panda White Marble", img: "Images/Marble/Panda White Marble.jpg" },
         { name: "Green Marble", img: "Images/Marble/Green Marble.jpg" },
         { name: "Cristalo White", img: "Images/Marble/Cristalo White.jpeg" },
@@ -23,7 +31,19 @@ const productData = {
         { name: "Premium Piccaso", img: "Images/Marble/Premium Piccaso.jpeg" },
         { name: "Piccaso White", img: "Images/Marble/Piccaso Wh9ite.jpeg" },
         { name: "Swiss Blue", img: "Images/Marble/Swiss Blue.jpeg" },
-        { name: "Titanium Gold", img: "Images/Marble/Titanium Gold.jpeg" },
+        { name: "Brown Fantasy Lighter", img: "Images/Marble/Brown Fantasy Lighter.jpg" },
+        { name: "Brown Fantasy", img: "Images/Marble/Brown Fantasy.jpg" },
+        { name: "Lady Onyx", img: "Images/Marble/Lady Onyx2.jpg" },
+        { name: "Magic Black Marble", img: "Images/Marble/Magic Black Marble.jpg" },
+        { name: "Marine Black", img: "Images/Marble/Marine Black1.jpg" },
+        { name: "Rain Forest Brown", img: "Images/Marble/Rain Forest Brown.jpg" },
+        { name: "Rain Forest Gold", img: "Images/Marble/Rain Forest Gold.jpg" },
+        { name: "Rain Forest Green", img: "Images/Marble/Rain Forest Green.jpg" },
+        { name: "River Blue", img: "Images/Marble/River Blue.jpg" },
+        { name: "Teak Sandstone", img: "Images/Marble/Teaksandstone 8.jpeg" },
+        { name: "White Dunes Marble", img: "Images/Marble/White Dunes Marble.jpg" },
+        { name: "Yellow Marble", img: "Images/Marble/Yellow Marble4.jpeg" },
+        { name: "Titanium Gold", img: "Images/Marble/Titanium Gold.jpeg" }
     ],
     "Quartz": [
         { name: "Borghini Gold", img: "Images/quartz/Borghini Gold.jpg" },
@@ -47,7 +67,11 @@ const productData = {
 };
 
 function showProducts(category) {
+    let modalTitle = document.getElementById("productModalLabel");
     let modalBody = document.getElementById("modalProductList");
+
+    // Update the modal title with the selected category name
+    modalTitle.innerText = category;
     modalBody.innerHTML = ""; // Clear previous products
 
     productData[category].forEach(product => {
@@ -71,6 +95,7 @@ function showProducts(category) {
 
     new bootstrap.Modal(document.getElementById('productModal')).show();
 }
+
 
 // Function to Show Magnified Product
 function showMagnifiedProduct(name, image) {

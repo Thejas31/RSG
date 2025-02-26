@@ -1,8 +1,9 @@
 /* General body styling */
 body {
-    background: url('Images/back2.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-image: url('Images/resources/back2.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
     color: #333333;
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -54,12 +55,17 @@ body {
 .aboutUs {
     padding: 30px;
     background-color: #f9f9f9;
+    /* background-image: url('Images/resources/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #444444;
+    color: #1c4160;
     transition: transform 0.3s ease-in-out;
     background-color: #f9f9f9;
+    font-weight: bolder;
 }
 
 .aboutUs:hover{
@@ -78,7 +84,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
-    color: #000000;
+    color: #1c4160;
 }
 
 .aboutUs p {
@@ -124,6 +130,12 @@ body {
     font-size: 0.9rem;
 }
 
+.carousel-item img {
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+    object-fit: contain; /* Ensures full image is visible */
+    background-color: black; /* Optional: Adds a background if the image doesn't fill the space */
+}
 
 
 /* Responsive Design */
@@ -153,6 +165,19 @@ body {
 }
 
 /* Product Card */
+.product{
+    /* background-image: url('Images/resources/back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #1c4160;
+   
+}
 .product-card {
     border-radius: 12px;
     overflow: hidden;
@@ -168,7 +193,7 @@ body {
     width: 100%;
     height: 220px;
     object-fit: cover;
-    border-bottom: 3px solid #007bff;
+    border-bottom: 3px solid #030404;
 }
 .product-card .card-body {
     text-align: center;
@@ -177,7 +202,18 @@ body {
 .product-card .card-title {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+    color: #1c4160;
+}
+
+.pros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
 }
 
 /* Modal Styling */
@@ -185,8 +221,8 @@ body {
     border-radius: 10px;
 }
 .modal-header {
-    background: #44515f;
-    color: white;
+    background: #f8f9fb;
+    color: rgb(41, 95, 148);
     border-radius: 10px 10px 0 0;
 }
 .modal-title {
@@ -195,7 +231,19 @@ body {
 .modal-body {
     max-height: 70vh;
     overflow-y: auto;
-    background: #f8f9fa;
+    background: #fdfeff;
+}
+
+/* Inside Modal */
+.product-item {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.product-item:hover {
+    transform: scale(1.03);
+    background-color: #071178;
+    color: whitesmoke;
 }
 
 /* Product Long Card */
@@ -212,6 +260,7 @@ body {
 }
 .long-card:hover {
     transform: translateY(-3px);
+    background-color: #071178;
 }
 .long-card img {
     width: 120px;
@@ -222,7 +271,7 @@ body {
     border: 2px solid #4a535e;
 }
 .long-card h5 {
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 5px;
 }
 
@@ -414,18 +463,11 @@ body {
     transition: transform 0.3s ease-in-out;
     height: 50px;
 }
-.product-card:hover {
+/* .product-card:hover {
     transform: scale(1.05);
-}
+} */
 
-/* Inside Modal */
-.product-item {
-    cursor: pointer;
-    transition: 0.3s;
-}
-.product-item:hover {
-    transform: scale(1.03);
-}
+
 
 /* WhatsApp Button */
 .whatsapp-btn {
