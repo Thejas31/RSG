@@ -63,6 +63,13 @@ const productData = {
         { name: "Sparkle Grey", img: "Images/quartz/Sparkle Grey.jpg" },
         { name: "Sparkle White", img: "Images/quartz/Sparkle White.jpg" },
         { name: "Venetino Grey", img: "Images/quartz/Venetino Grey.JPG" },
+        { name: "Calacatta SW", img: "Images/quartz/Calacatta SW.jpeg" },
+        { name: "Calacatta SG", img: "Images/quartz/Calacatta SG.jpeg" },
+        { name: "Calacatta FG", img: "Images/quartz/Calacatta FG.jpeg" },
+        { name: "Calacatta Fantasy", img: "Images/quartz/Calacatta Fantasy.jpeg" },
+        { name: "Calacatta CM", img: "Images/quartz/Calacatta CM.jpeg" },
+        { name: "Calacatta CG", img: "Images/quartz/Calacatta CG.jpeg" },
+        { name: "Calacatta AG", img: "Images/quartz/Calacatta AG.jpeg" }
     ]
 };
 
