@@ -14,7 +14,6 @@ const productData = {
         { name: "Red Granite", img: "Images/Granite/Red Granite1.jpeg" },
         
         { name: "Steel Grey", img: "Images/Granite/Steel Grey.jpg" },
-        // { name: "White Dunes", img: "Images/Granite/White Dunes.jpg" }
     ],
     
     "Marble": [
