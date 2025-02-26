@@ -14,7 +14,7 @@ const productData = {
         { name: "Red Granite", img: "Images/Granite/Red Granite1.jpeg" },
         
         { name: "Steel Grey", img: "Images/Granite/Steel Grey.jpg" },
-        { name: "White Dunes", img: "Images/Granite/White Dunes.jpg" }
+        // { name: "White Dunes", img: "Images/Granite/White Dunes.jpg" }
     ],
     
     "Marble": [
@@ -27,7 +27,7 @@ const productData = {
         { name: "Cristalo White", img: "Images/Marble/Cristalo White.jpeg" },
         { name: "Fusion White", img: "Images/Marble/Fusion White.jpeg" },
         { name: "Jesper Red", img: "Images/Marble/Jesper Red.jpeg" },
-        { name: "Monalisa", img: "Images/Marble/Monalisa.jpeg" },
+        // { name: "Monalisa", img: "Images/Marble/Monalisa.jpeg" },
         // { name: "Premium Piccaso", img: "Images/Marble/Premium Piccaso.jpeg" },
         { name: "Piccaso White", img: "Images/Marble/Piccaso Wh9ite.jpeg" },
         { name: "Brown Fantasy Lighter", img: "Images/Marble/Brown Fantasy Lighter.jpg" },
